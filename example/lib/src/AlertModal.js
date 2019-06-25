@@ -8,6 +8,7 @@ import styles, { container, stickOnTop } from "./AlertModal.style";
 import ClassicOnlyText from "./components/classicOnlyText/ClassicOnlyText";
 import ClassicWithIcon from "./components/classicWithIcon/ClassicWithIcon";
 import ClassicTriple from "./components/classicTriple/ClassicTriple";
+import ClassicTripleWithIcon from "./components/classicTripleWIthIcon/ClassicTripleWithIcon";
 
 const AlertModal = props => {
   const {
@@ -36,7 +37,7 @@ const AlertModal = props => {
         locations={locations}
         style={[container(height, containerPaddingTop), stickOnTop()]}
       >
-        {component || <ClassicTriple />}
+        {component || <ClassicTripleWithIcon />}
       </LinearGradient>
     </Modal>
   );
