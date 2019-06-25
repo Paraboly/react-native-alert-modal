@@ -13,7 +13,8 @@ const ClassicOnlyText = props => {
     textColor,
     titleColor,
     fontFamily,
-    titleTextColor
+    titleTextColor,
+    titleFontFamily
   } = props;
   return (
     <View style={styles.container}>
@@ -21,6 +22,7 @@ const ClassicOnlyText = props => {
         title={title}
         titleColor={titleColor}
         titleWidth={width * 0.9}
+        fontFamily={titleFontFamily}
         titleTextColor={titleTextColor}
       />
       <View style={styles.textContainer}>

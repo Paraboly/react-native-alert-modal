@@ -9,9 +9,10 @@ export function imageStyle(imageHeight, imageWidth) {
   };
 }
 
-export function contextStyle(contextColor) {
+export function contextStyle(contextColor, fontFamily) {
   return {
     top: 12,
+    fontFamily,
     fontSize: 20,
     color: contextColor,
     textAlign: "center",

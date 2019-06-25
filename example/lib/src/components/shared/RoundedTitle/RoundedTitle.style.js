@@ -7,8 +7,9 @@ export function titleStyle(backgroundColor, titleWidth) {
   };
 }
 
-export function titleTextStyle(textColor) {
+export function titleTextStyle(textColor, fontFamily) {
   return {
+    fontFamily,
     marginLeft: 8,
     color: textColor,
     fontWeight: "600",

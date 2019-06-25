@@ -6,10 +6,13 @@ import { titleStyle, titleTextStyle } from "./RoundedTitle.style";
 const { width } = Dimensions.get("window");
 
 const RoundedTitle = props => {
-  const { title, titleColor, titleWidth, titleTextColor } = props;
+  const { title, titleColor, titleWidth, titleTextColor, fontFamily } = props;
   return (
     <View style={titleStyle(titleColor, titleWidth)}>
-      <Text numberOfLines={1} style={titleTextStyle(titleTextColor)}>
+      <Text
+        numberOfLines={1}
+        style={titleTextStyle(titleTextColor, fontFamily)}
+      >
         {title}
       </Text>
     </View>

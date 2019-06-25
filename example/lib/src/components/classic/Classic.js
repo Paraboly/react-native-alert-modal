@@ -13,9 +13,11 @@ const Classic = props => {
     title,
     context,
     titleColor,
+    fontFamily,
     imageWidth,
     imageHeight,
     titleTextColor,
+    titleFontFamily,
     contextTextColor
   } = props;
   return (
@@ -26,8 +28,12 @@ const Classic = props => {
           title={title}
           titleColor={titleColor}
           titleTextColor={titleTextColor}
+          fontFamily={titleFontFamily}
         />
-        <Text numberOfLines={2} style={contextStyle(contextTextColor)}>
+        <Text
+          numberOfLines={2}
+          style={contextStyle(contextTextColor, fontFamily)}
+        >
           {context}
         </Text>
       </View>
