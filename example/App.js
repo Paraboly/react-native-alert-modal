@@ -1,5 +1,6 @@
 import React, { Component } from "react";
-import { StyleSheet, Text, View, ImageBackground } from "react-native";
+import { getStatusBarHeight } from "./lib/src/helpers/helpers";
+import { StyleSheet, ImageBackground } from "react-native";
 import AlertModal from "./lib/src/AlertModal";
 
 export default class App extends Component {
@@ -9,7 +10,10 @@ export default class App extends Component {
         source={require("./assets/map.png")}
         style={styles.container}
       >
-        <AlertModal />
+        <AlertModal
+          type="classicTripleWithIcon"
+          height={getStatusBarHeight() + 600}
+        />
       </ImageBackground>
     );
   }
