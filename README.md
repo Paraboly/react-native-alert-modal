@@ -1,15 +1,16 @@
-<img alt="Paraboly React Native Video Modal" src="https://github.com/Paraboly/react-native-video-modal/blob/master/assets/op_logo.png" width="1050"/>
+<img alt="Paraboly React Native Alert Modal" src="https://github.com/Paraboly/react-native-alert-modal/blob/master/assets/op_logo.png" width="1050"/>
 
-Fully customizable, loading style implemented Video Modal for React Native via Paraboly.
+Ready to use awesome alerts as modal for React Native via Paraboly.
 
-[![npm version](https://img.shields.io/npm/v/@paraboly/react-native-video-modal.svg)](https://www.npmjs.com/package/@paraboly/react-native-video-modal)
-[![npm](https://img.shields.io/npm/dt/@paraboly/react-native-video-modal.svg)](https://www.npmjs.org/package/@paraboly/react-native-video-modal)
+[![npm version](https://img.shields.io/npm/v/@paraboly/react-native-alert-modal.svg)](https://www.npmjs.com/package/@paraboly/react-native-alert-modal)
+[![npm](https://img.shields.io/npm/dt/@paraboly/react-native-alert-modal.svg)](https://www.npmjs.org/package/@paraboly/react-native-alert-modal)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
-## Video Modal
+## Alert Modal
 
 <p align="center">
-<img alt="Paraboly React Native Video Modal" src="https://github.com/Paraboly/react-native-video-modal/blob/master/assets/Screenshots/example.png" width="49.7%"/>
+<img alt="Paraboly React Native Alert Modal" src="https://github.com/Paraboly/react-native-alert-modal/blob/master/assets/Screenshots/example.png" width="49.7%"/>
+<img alt="Paraboly React Native Alert Modal" src="https://github.com/Paraboly/react-native-alert-modal/blob/master/assets/Screenshots/example2.png" width="49.7%"/>
 </p>
 
 ## Installation
@@ -54,7 +55,7 @@ npm i @paraboly/react-native-card
 | Property                |    Type    |             Default             | Description                                                                          |
 | ----------------------- | :--------: | :-----------------------------: | ------------------------------------------------------------------------------------ |
 | title                   |   string   |               ""                | use this to change the title                                                         |
-| source                  |   source   |               uri               | use this to set your own source for the Video Modal                                  |
+| source                  |   source   |               uri               | use this to set your own source for the Alert Modal                                  |
 | isOpen                  |  boolean   |              true               | change the automatically open modal                                                  |
 | easing                  |   easing   |        Easing.elastic(1)        | change the easing animation option                                                   |
 | refName                 |   string   |              null               | set ref name for the modal                                                           |
@@ -70,8 +71,8 @@ npm i @paraboly/react-native-card
 | modalWidth              |   number   |        ScreenWidth * 0.9        | change the modal's width                                                             |
 | modalHeight             |   number   |               350               | change the modal's height                                                            |
 | modalBottom             |   number   |               18                | change title's font size                                                             |
-| shadowColor             |   color    |             "#000"              | change main video modal's shadow color                                               |
-| shadowStyle             |   style    |         check the code          | set your own shadow style for the main video modal                                   |
+| shadowColor             |   color    |             "#000"              | change main Alert Modal's shadow color                                               |
+| shadowStyle             |   style    |         check the code          | set your own shadow style for the main Alert Modal                                   |
 | titleStyle              |   style    | { bottom: ScreenHeight * 0.55 } | IMPORANT! it should be style to give it as bottom adjustment                         |
 | heartOnPress            |  function  |              null               | set your own logic for heart button                                                  |
 | fullScreenOnPress       |  function  |    Open the fullscreen video    | set your own logic for fullscreen button                                             |
@@ -115,4 +116,4 @@ FreakyCoder, kurayogun@gmail.com | kuray.ogun@paraboly.com
 
 ## License
 
-Paraboly React Native Video Modal Library is available under the MIT license. See the LICENSE file for more info.
+Paraboly React Native Alert Modal Library is available under the MIT license. See the LICENSE file for more info.
