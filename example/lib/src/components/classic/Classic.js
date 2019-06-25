@@ -9,20 +9,23 @@ const defaultImage = require("../../../../assets/trial.png");
 
 const Classic = props => {
   const {
-    image,
+    icon,
     title,
     context,
     titleColor,
     fontFamily,
-    imageWidth,
-    imageHeight,
+    iconWidth,
+    iconHeight,
+    iconComponent,
     titleTextColor,
     titleFontFamily,
     contextTextColor
   } = props;
   return (
     <View style={styles.container}>
-      <FastImage source={image} style={imageStyle(imageHeight, imageWidth)} />
+      {iconComponent || (
+        <FastImage source={icon} style={imageStyle(iconHeight, iconWidth)} />
+      )}
       <View style={styles.containerGlue}>
         <RoundedTitle
           title={title}
@@ -42,16 +45,16 @@ const Classic = props => {
 };
 
 Classic.propTypes = {
-  imageHeight: PropTypes.number,
-  imageWidth: PropTypes.number,
-  contextTextColor: PropTypes.string,
-  context: PropTypes.string
+  context: PropTypes.string,
+  iconWidth: PropTypes.number,
+  iconHeight: PropTypes.number,
+  contextTextColor: PropTypes.string
 };
 
 Classic.defaultProps = {
-  image: defaultImage,
-  imageHeight: 95,
-  imageWidth: 95,
+  icon: defaultImage,
+  iconWidth: 95,
+  iconHeight: 95,
   contextTextColor: "#828b9a",
   context: "Yavaş ve dikkatli sürünüz !"
 };
