@@ -9,8 +9,17 @@ Ready to use awesome alerts as modal for React Native via Paraboly.
 ## Alert Modal
 
 <p align="center">
-<img alt="Paraboly React Native Alert Modal" src="https://github.com/Paraboly/react-native-alert-modal/blob/master/assets/Screenshots/example.png" width="49.7%"/>
-<img alt="Paraboly React Native Alert Modal" src="https://github.com/Paraboly/react-native-alert-modal/blob/master/assets/Screenshots/example2.png" width="49.7%"/>
+<img alt="Paraboly React Native Alert Modal" src="https://github.com/Paraboly/react-native-alert-modal/blob/master/assets/Screenshots/example.png" height="600" width="49.7%"/>
+<img alt="Paraboly React Native Alert Modal" src="https://github.com/Paraboly/react-native-alert-modal/blob/master/assets/Screenshots/example2.png" height="600" width="49.7%"/>
+</p>
+
+<p align="center">
+<img alt="Paraboly React Native Alert Modal" src="https://github.com/Paraboly/react-native-alert-modal/blob/master/assets/Screenshots/example3.png" height="600" width="49.7%"/>
+<img alt="Paraboly React Native Alert Modal" src="https://github.com/Paraboly/react-native-alert-modal/blob/master/assets/Screenshots/example4.png" height="600" width="49.7%"/>
+</p>
+
+<p align="center">
+<img alt="Paraboly React Native Alert Modal" src="https://github.com/Paraboly/react-native-alert-modal/blob/master/assets/Screenshots/example5.png" height="600" width="49.7%"/>
 </p>
 
 ## Installation
@@ -19,7 +28,7 @@ Add the dependency:
 
 ```ruby
 npm i @paraboly/react-native-card
-```
+``` 
 
 ## Peer Dependencies
 
