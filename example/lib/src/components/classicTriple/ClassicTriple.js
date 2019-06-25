@@ -7,7 +7,14 @@ import RoundedTitle from "../shared/RoundedTitle/RoundedTitle";
 const { width } = Dimensions.get("window");
 
 const ClassicTriple = props => {
-  const { data, title, titleColor, titleTextColor, titleFontFamily } = props;
+  const {
+    data,
+    iconComponent,
+    title,
+    titleColor,
+    titleTextColor,
+    titleFontFamily
+  } = props;
   return (
     <View style={styles.container}>
       <View>
@@ -20,7 +27,7 @@ const ClassicTriple = props => {
         />
       </View>
       <View style={styles.infoboxContainer}>
-        <InfoBoxes data={data} />
+        <InfoBoxes data={data} iconComponent={iconComponent} />
       </View>
     </View>
   );

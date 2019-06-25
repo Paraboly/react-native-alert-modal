@@ -5,7 +5,7 @@ import { View, Text } from "react-native";
 import Icon from "react-native-dynamic-vector-icons";
 import { container, titleStyle, valueStyle } from "./InfoBoxes.style";
 
-const eventDetails = [
+const template = [
   {
     type: "severity",
     value: "Düşük",
@@ -28,6 +28,7 @@ const InfoBoxes = props => {
     data,
     baseColor,
     titleColor,
+    iconComponent,
     titleFontFamily,
     valueFontFamily
   } = props;
@@ -57,7 +58,8 @@ const InfoBoxes = props => {
           temp.push(renderTitle);
         }
         if (item.icon) {
-          temp.push(renderIcon);
+          if (iconComponent) temp.push(iconComponent);
+          else temp.push(renderIcon);
           if (item.value) {
             temp.push(renderValue);
           }
@@ -86,7 +88,7 @@ InfoBoxes.propTypes = {
 };
 
 InfoBoxes.defaultProps = {
-  data: eventDetails,
+  data: template,
   baseColor: "#fb826b",
   titleColor: "#b3b6c3"
 };
