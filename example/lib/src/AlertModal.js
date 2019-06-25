@@ -7,6 +7,7 @@ import LinearGradient from "react-native-linear-gradient";
 import styles, { container, stickOnTop } from "./AlertModal.style";
 import ClassicOnlyText from "./components/classicOnlyText/ClassicOnlyText";
 import ClassicWithIcon from "./components/classicWithIcon/ClassicWithIcon";
+import ClassicTriple from "./components/classicTriple/ClassicTriple";
 
 const AlertModal = props => {
   const {
@@ -35,7 +36,7 @@ const AlertModal = props => {
         locations={locations}
         style={[container(height, containerPaddingTop), stickOnTop()]}
       >
-        {component || <ClassicWithIcon />}
+        {component || <ClassicTriple />}
       </LinearGradient>
     </Modal>
   );
