@@ -1,7 +1,7 @@
 import React, { Component } from "react";
-import { getStatusBarHeight } from "./lib/src/helpers/helpers";
+import { getStatusBarHeight } from "./helpers/helpers";
 import { StyleSheet, ImageBackground } from "react-native";
-import AlertModal from "./lib/src/AlertModal";
+import AlertModal from "@paraboly/react-native-alert-modal";
 
 export default class App extends Component {
   render() {
