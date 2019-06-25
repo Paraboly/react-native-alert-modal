@@ -9,23 +9,6 @@ export function imageStyle(imageHeight, imageWidth) {
   };
 }
 
-export function titleStyle(backgroundColor) {
-  return {
-    padding: 3,
-    backgroundColor,
-    borderRadius: 16,
-    width: width * 0.65
-  };
-}
-
-export function titleTextStyle(textColor) {
-  return {
-    marginLeft: 8,
-    color: textColor,
-    fontWeight: "600"
-  };
-}
-
 export function contextStyle(contextColor) {
   return {
     top: 12,
