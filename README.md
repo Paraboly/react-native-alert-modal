@@ -44,10 +44,49 @@ npm i @paraboly/react-native-alert-modal
 "react-native-dynamic-vector-icons": "0.0.4",
 ```
 
-## Basic Usage
+## Basic Usage of AlertModal
+
+#### Classic
 
 ```js
-<VideoModal title="Test Video Stream" source={source} />
+import AlertModal from "@paraboly/react-native-alert-modal";
+
+<AlertModal type="classic" />
+```
+
+#### ClassicOnlyText
+
+```js
+import AlertModal from "@paraboly/react-native-alert-modal";
+
+<AlertModal type="classicOnlyText" />
+```
+
+#### ClassicWithIcon
+
+```js
+import AlertModal from "@paraboly/react-native-alert-modal";
+
+<AlertModal type="classicWithIcon" />
+```
+
+#### ClassicTriple
+
+```js
+import AlertModal from "@paraboly/react-native-alert-modal";
+
+<AlertModal type="classicTriple" />
+```
+
+#### ClassicTripleWithIcon
+
+```js
+import AlertModal from "@paraboly/react-native-alert-modal";
+
+<AlertModal
+    type="classicTripleWithIcon"
+    height={getStatusBarHeight() + 600}
+/>
 ```
 
 ### Example Application
