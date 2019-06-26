@@ -7,7 +7,7 @@
     "test": "jest"
   },
   "dependencies": {
-    "@paraboly/react-native-alert-modal": "0.0.15",
+    "@paraboly/react-native-alert-modal": "0.0.16",
     "react": "16.8.3",
     "react-native": "0.59.9",
     "react-native-dynamic-vector-icons": "0.0.4",
