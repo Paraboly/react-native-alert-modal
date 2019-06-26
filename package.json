@@ -1,13 +1,10 @@
 {
-  "name": "@paraboly/react-native-video-modal",
-  "version": "0.0.20",
-  "description": "Fully customizable, loading style implemented Video Modal for React Native via Paraboly.",
+  "name": "@paraboly/react-native-alert-modal",
+  "version": "0.0.1",
+  "description": "Ready to use awesome alerts as modal for React Native via Paraboly.",
   "keywords": [
-    "video",
-    "video-stream",
-    "stream",
+    "alert",
     "modal",
-    "video-modal",
     "paraboly",
     "FreakyCoder",
     "freakycoder",
@@ -20,22 +17,18 @@
     "rn"
   ],
   "homepage": "https://www.freakycoder.com",
-  "bugs": "https://github.com/Paraboly/react-native-video-modal/issues",
-  "main": "./lib/src/VideoModal.js",
-  "repository": "git@github.com:Paraboly/react-native-video-modal.git",
+  "bugs": "https://github.com/Paraboly/react-native-alert-modal/issues",
+  "main": "./lib/src/AlertModal.js",
+  "repository": "git@github.com:Paraboly/react-native-alert-modal.git",
   "author": "Kuray (FreakyCoder) <kurayogun@gmail.com>",
   "license": "MIT",
   "peerDependencies": {
     "react": ">= 16.x.x",
     "react-native": ">= 0.55.x",
-    "react-native-video": ">= 4.4.1",
-    "react-native-spinkit": ">= 1.3.0",
-    "react-native-vector-icons": ">= 6.x.x",
-    "react-native-material-ripple": ">= 0.8.0",
-    "@paraboly/react-native-modal-box": ">= 0.0.1",
-    "react-native-dynamic-vector-icons": ">= x.x.x",
-    "@freakycoder/react-native-helpers": ">= 0.0.12",
-    "react-native-floating-action-button": ">= 0.1.14",
-    "@freakycoder/react-native-custom-text": ">= 0.0.12"
+    "react-native-modal": "^11.0.2",
+    "react-native-fast-image": "^6.0.3",
+    "react-native-vector-icons": "^6.5.0",
+    "react-native-linear-gradient": "^2.5.4",
+    "react-native-dynamic-vector-icons": "0.0.4"
   }
 }
