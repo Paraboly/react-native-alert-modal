@@ -1,6 +1,6 @@
 {
   "name": "@paraboly/react-native-alert-modal",
-  "version": "0.0.19",
+  "version": "0.1.0",
   "description": "Ready to use awesome alerts as modal for React Native via Paraboly.",
   "keywords": [
     "alert",
