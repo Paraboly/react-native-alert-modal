@@ -28,7 +28,7 @@ Add the dependency:
 
 ```ruby
 npm i @paraboly/react-native-alert-modal
-``` 
+```
 
 ## Peer Dependencies
 
@@ -38,7 +38,6 @@ npm i @paraboly/react-native-alert-modal
 "react": ">= 16.x.x",
 "react-native": ">= 0.55.x",
 "react-native-modal": "^11.0.2",
-"react-native-fast-image": "^6.0.3",
 "react-native-vector-icons": "^6.5.0",
 "react-native-linear-gradient": "^2.5.4",
 "react-native-dynamic-vector-icons": "0.0.4",
@@ -51,7 +50,7 @@ npm i @paraboly/react-native-alert-modal
 ```js
 import AlertModal from "@paraboly/react-native-alert-modal";
 
-<AlertModal type="classic" />
+<AlertModal type="classic" />;
 ```
 
 #### ClassicOnlyText
@@ -59,7 +58,7 @@ import AlertModal from "@paraboly/react-native-alert-modal";
 ```js
 import AlertModal from "@paraboly/react-native-alert-modal";
 
-<AlertModal type="classicOnlyText" />
+<AlertModal type="classicOnlyText" />;
 ```
 
 #### ClassicWithIcon
@@ -67,7 +66,7 @@ import AlertModal from "@paraboly/react-native-alert-modal";
 ```js
 import AlertModal from "@paraboly/react-native-alert-modal";
 
-<AlertModal type="classicWithIcon" />
+<AlertModal type="classicWithIcon" />;
 ```
 
 #### ClassicTriple
@@ -75,7 +74,7 @@ import AlertModal from "@paraboly/react-native-alert-modal";
 ```js
 import AlertModal from "@paraboly/react-native-alert-modal";
 
-<AlertModal type="classicTriple" />
+<AlertModal type="classicTriple" />;
 ```
 
 #### ClassicTripleWithIcon
@@ -83,10 +82,7 @@ import AlertModal from "@paraboly/react-native-alert-modal";
 ```js
 import AlertModal from "@paraboly/react-native-alert-modal";
 
-<AlertModal
-    type="classicTripleWithIcon"
-    height={getStatusBarHeight() + 600}
-/>
+<AlertModal type="classicTripleWithIcon" height={getStatusBarHeight() + 600} />;
 ```
 
 ### Example Application
