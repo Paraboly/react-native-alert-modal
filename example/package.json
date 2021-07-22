@@ -9,7 +9,7 @@
   "dependencies": {
     "@paraboly/react-native-alert-modal": "0.0.16",
     "react": "16.8.3",
-    "react-native": "0.59.9",
+    "react-native": "0.62.3",
     "react-native-dynamic-vector-icons": "0.0.4",
     "react-native-linear-gradient": "^2.5.4",
     "react-native-modal": "^11.0.2",
